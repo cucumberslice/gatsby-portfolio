@@ -23,15 +23,16 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           {images.map((obj, i) => {
             return (
               <GalleryItem
+                key={i}
                 id={obj.id}
                 source={obj.source}
                 linkSrc={obj.linkSrc}
                 thumbnail={obj.thumbnail}
                 caption={obj.caption}
                 description={obj.description}
-                position={obj.position}
-                toggleLightbox={obj.toggleLightbox}
-                position={i}
+                // position={obj.position}
+                // toggleLightbox={obj.toggleLightbox}
+                position={obj.id}
                 toggleLightbox={toggleLightbox}
               />
             )
