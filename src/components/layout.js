@@ -5,7 +5,7 @@ import Header from './Header'
 
 const Template = ({ children }) => (
   <div>
-    <Header />
+     <Header />
     {children}
   </div>
 )

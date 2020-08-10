@@ -1,20 +1,29 @@
 import React from 'react'
+import Typewriter from 'typewriter-effect'
 
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import avatar from '../assets/images/avatar.png'
 
 const Header = () => (
   <header id="header">
     <div className="inner">
-      <a href="#" className="image avatar">
-        <img src={avatar} alt="" />
-      </a>
+      <img src={avatar} alt="" className="image avatar" />
+
       <h1>
-        <strong>I am Strata</strong>, a super simple
-        <br />
-        responsive site template freebie
-        <br />
-        crafted by <a href="http://html5up.net">HTML5 UP</a>.
+        <Typewriter
+          options={{
+            strings: [
+              `I'm a full stack developer`,
+              `a life long learner`,
+              `an avid reader`,
+              `a tennis player`,
+              `a crypto currency investor`,
+              `a mixologist!`,
+            ],
+            autoStart: true,
+            loop: true,
+          }}
+        />
       </h1>
     </div>
     <Footer />
