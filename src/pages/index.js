@@ -27,9 +27,11 @@ const HomeIndex = () => {
             </h2>
           </header>
           <p>
-            Bred and raised in <strong>Bhutan</strong>, a tiny mystical kingdom
-            Far Far Away, also known as the birth place of{' '}
-            <strong>Gross National Happiness.</strong>
+            I'm a front-end developer currently learning about microservices
+            with Node js and React. I've also started my first official blogging
+            site <a href="https://www.codealpaca.io">codeAlpaca</a>. One of my
+            2020 goals this year has been to learn new technology or concept
+            every single month.
           </p>
           <p>
             In March 2018, I joined Fullstack Academy's Flagship course, the
@@ -37,9 +39,8 @@ const HomeIndex = () => {
             JavaScript over a period of 13 weeks.
           </p>
           <p>
-            The upcoming tools and frameworks with modern web applications blew
-            my mind away, and like any nerds out there, it was a love at first
-            sight. I dived straight in, to become a developer.
+            Creating something from ground up and come to see it alive has been
+            the most time consuming but also very satisfying.
           </p>
           <p>
             Away from computer, I like checking out local cafés, reading memoirs

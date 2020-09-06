@@ -14,9 +14,9 @@ const GalleryItem = ({
   const onClick = useCallback(
     (e) => {
       e.preventDefault()
-      toggleLightbox(position)
+      toggleLightbox(id)
     },
-    [position, toggleLightbox]
+    [id, toggleLightbox]
   )
 
   return (
@@ -35,7 +35,7 @@ const GalleryItem = ({
 
 GalleryItem.displayName = 'GalleryItem'
 GalleryItem.propTypes = {
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
   source: PropTypes.string.isRequired,
   thumbnail: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,

@@ -24,14 +24,12 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
             return (
               <GalleryItem
                 key={i}
-                id={obj.id}
+                id={i}
                 source={obj.source}
                 linkSrc={obj.linkSrc}
                 thumbnail={obj.thumbnail}
                 caption={obj.caption}
                 description={obj.description}
-                // position={obj.position}
-                // toggleLightbox={obj.toggleLightbox}
                 position={obj.id}
                 toggleLightbox={toggleLightbox}
               />

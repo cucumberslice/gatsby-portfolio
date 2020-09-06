@@ -29,19 +29,19 @@ export const DEFAULT_IMAGES = [
   {
     id: '3',
     source: full03,
-    linkSrc: 'https://github.com/cucumberslice/blog-gatsby',
+    linkSrc: 'https://www.codealpaca.io/',
     thumbnail: thumb03,
     caption: 'Blogging Site',
     description:
-      'A personal blogging site where the user can blog their content and attach a video link if its available. This site has been bootstrapped using gatsby along with graphQL',
+      'A personal blogging site where I try to learn new technology each week and blog about it. This site has been bootstrapped using gatsby along with graphQL.',
   },
   {
     id: '4',
     source: full04,
-    linkSrc: 'https://github.com/cucumberslice/food-search',
+    linkSrc: 'https://yt-app-nine.vercel.app/',
     thumbnail: thumb04,
-    caption: 'Food Search',
+    caption: 'Video Search App',
     description:
-      'A user can search a restaurant on their mobile device. It uses a search engine api which would list a restaurant in three categories, cheap, expensive and very expensive',
+      'A mini version of youtube browser application where a user can search any term and the app generates the search. The main goal was to play around with youtube public free api. It is also deployed using Vercel service provider.',
   },
 ]
